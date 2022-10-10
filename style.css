@@ -17,8 +17,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #011E69;
+  background-image: url("https://thumbs.gfycat.com/HugeVengefulAmericanbittern-max-1mb.gif");
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .divSearch {
@@ -70,8 +74,8 @@ body {
   background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);
   padding: 5px;
   margin: 0;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
   margin-bottom: 40px;
   border-radius: 20px;
   height: 265px;

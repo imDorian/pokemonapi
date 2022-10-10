@@ -29,7 +29,7 @@ input$$.addEventListener("input", ()=>search(input$$.value))
 
 //function search
 const search = (name)=>{
-    const misFiltrados =  pokemons.filter(pokemon => pokemon.name.includes(name) )
+   const misFiltrados =  pokemons.filter(pokemon => pokemon.name.includes(name) )
 
     list$$.textContent = "";
     for (const pokemon of misFiltrados) {
