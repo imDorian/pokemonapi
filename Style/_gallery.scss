@@ -1,0 +1,18 @@
+#pokedex{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:0;
+    padding: 30px;
+    list-style: none;
+}
+
+// @media screen and (min-width: 100px) and(max-width:616px){
+//     #pokedex{
+//         justify-content: center;
+//         padding: 10px;
+//     }
+// }

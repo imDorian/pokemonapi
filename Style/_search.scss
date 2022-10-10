@@ -1,0 +1,27 @@
+.divSearch{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 50px;
+ position: sticky;
+ top: 20px;
+ z-index: 10;
+}
+
+
+#search{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    text-align: center;
+    box-shadow:-5px 5px 20px ;
+    //text-shadow: -5px 5px 20px;
+    
+}
+
+#search:focus{
+    outline: none;
+    box-shadow: -5px 5px 30px;
+}
